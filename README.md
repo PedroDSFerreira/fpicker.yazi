@@ -18,12 +18,12 @@ Add this to your `~/.config/yazi/keymap.toml`:
 
 ```toml
 [[manager.prepend_keymap]]
-on   = ["f", "u"]
+on   = ["f", "p"]
 run  = "plugin fpicker --args='<dir-path>'"
 desc = "Pick a folder"
 ```
 
-Make sure the <kbd>fu</kbd> keymap is not used elsewhere.
+Make sure the <kbd>fp</kbd> keymap is not used elsewhere.
 
 ## License
 
